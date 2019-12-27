@@ -954,3 +954,141 @@ header {
     display: block;
     margin: 35px 30px 25px 35px;
 }
+
+.twelfth-screen {
+    display: block;
+    width: 100%;
+    margin-top: 70px;
+
+}
+
+.twelfth-screen__top {
+    display: flex;
+    width: 100%;
+    height: 180px;
+    background: rgba(47, 128, 237, 0.05);
+    align-items: center;
+
+}
+
+.twelfth-screen__top__container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px auto;
+    width: 1100px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.twelfth-screen__text-box {
+    background: #FFFFFF;
+    padding: 13px 22px;
+    border: 1px solid rgba(47, 128, 237, 0.3);
+    box-sizing: border-box;
+    width: 250px;
+    display: block;
+    color: #c6c6c6;
+}
+
+.twelfth-screen__top__sign-up {
+    text-decoration: none;
+    color: #FFFFFF;
+    padding: 13px 22px;
+    background: #52D1BC;
+    border-radius: 50px;
+    font-weight: bold;
+    box-sizing: border-box;
+    display: inline-block;
+    text-transform: uppercase;
+    text-align: center; 
+    letter-spacing: 0.05em;
+}
+
+.twelfth-screen__middle {
+    display: flex;
+    width: 100%;
+    height: 120px;
+    background: #2F80ED;
+    align-items: center;
+}
+
+.twelfth-screen__middle__container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px auto;
+    width: 1100px;
+    align-items: center;
+}
+
+.twelfth-screen__cities-list {
+    display: flex;
+    padding: 0px;
+}
+
+.twelfth-screen__city {
+    display: block;
+    margin-right: 20px;
+    text-decoration: none;
+    font-style: normal;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    list-style: none;
+}
+
+.twelfth-screen__saint-petersburg {
+    font-weight: bold;
+}
+
+.twelfth-screen__middle__sign-up {
+    text-decoration: none;
+    color: #2F80ED;
+    padding: 10px 20px;
+    background: #FFFFFF;
+    border-radius: 50px;
+    box-sizing: border-box;
+    display: inline-block;
+    text-align: center; 
+    margin-left: auto;
+}
+
+.twelfth-screen__footer {
+    background: #185FBF;
+    display: flex;
+    width: 100%;
+    height: 90px;
+    align-items: center;
+
+}
+
+.twelfth-screen__footer__container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px auto;
+    width: 1100px;
+    align-items: center;
+}
+
+.twelfth-screen__footer__copyright {
+    color: #FFFFFF;
+    font-size: 13px;
+    display: inline-block;
+    opacity: 0.7;
+}
+
+.twelfth-screen__footer__contract {
+    color: #FFFFFF;
+    font-size: 13px;
+    display: inline-block;
+    text-decoration: none;
+    margin-left: auto;
+    opacity: 0.7;
+}
+
+.twelfth-screen__footer__confidence {
+    color: #FFFFFF;
+    font-size: 13px;
+    display: inline-block;
+    text-decoration: none;
+    margin-left: 27px;
+    opacity: 0.7;
+}
